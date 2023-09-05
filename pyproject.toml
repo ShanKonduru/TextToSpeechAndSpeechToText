@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "texttospeechandspeechtotext"
+version = "0.1.0"
+description = "This PoC is built to work with TTS and STT conversion"
+authors = ["ShanKonduru <ShanKonduru@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+SpeechRecognition = "^3.10.0"
+gTTS = "^2.3.2"
+pydub = "0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
